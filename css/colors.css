@@ -1,0 +1,21 @@
+.color-primary-gradient {
+    background: -webkit-linear-gradient(#781E6A, #A75B9B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.color-primary-text {
+    color: #781E6A;
+}
+
+.color-secondary-text {
+    color: #A75B9B;
+}
+
+.color-body-background {
+    background-color: #F9FDFF;
+}
+
+.color-background-copyright {
+    background-color: #EDE7EC;
+}
