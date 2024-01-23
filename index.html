@@ -233,7 +233,7 @@
               class="mobile-center d-flex col-xs-12 col-sm-12 col-md-7 col-lg-4 mb-5"
             >
               <img
-                src="assets/images/animations/mobile.svg"
+                src="assets/images/animations/contact.svg"
                 alt="Case 1"
                 class="img-responsive"
                 style="width: 22rem"
@@ -338,10 +338,16 @@
           class="d-flex flex-row justify-content-start flex-wrap flex-md-nowrap"
         >
           <div class="col-xs-12 col-sm-12 col-md-7 col-lg-6 mb-4">
-            <p>
-              Itajaí, SC - BR
-            </p>
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" href="term.html">Termos de uso</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="policy.html">Política de privacidade</a>
+					</li>
+				</ul>
           </div>
+		 
         </div>
       </div>
     </footer>
@@ -349,7 +355,7 @@
     <section id="copyright" class="color-background-copyright">
       <div class="container">
         <div class="row justify-content-center pt-3">
-          <div class="col-auto">
+          <div class="col">
             <p class="text-center">
               © 2024 Developed by
               <span class="color-primary-text font-comfortaa-bold">orderby.</span
@@ -418,7 +424,8 @@
         const headers = new Headers();
         headers.append("Content-Type", "application/json");
 
-        fetch("http://localhost:3456/send-contact-email", {
+		/*TODO - Implementar serviço de envio de e-mail*/
+        fetch("URL FOR SEND", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
